@@ -1,0 +1,143 @@
+Constructor Assignments
+
+Assignment 1:
+
+Create a Java class named "Person" with the following instance variables:
+name (String)
+age (int)
+gender (char)
+height (double)
+
+Create a constructor for the Person class that takes in the name, age, gender, and height as parameters and initializes the instance variables.
+
+Create a main method that creates two instances of the Person class using the constructor and prints out their information.
+
+Questions:
+
+What is the purpose of a constructor in Java?
+-- Constructor purpose is to restrict the un-nessessary object creation.
+
+How does a constructor differ from a regular method in Java?
+-- constructor cannot have any return type or void and it cannot have any business logic
+-- Methods can have any return type or void and it will have business logic
+
+Can a Java class have multiple constructors? If so, how are they differentiated?
+--Yes we can have multiple constructors and they are differentiated with different type of parameters(method overloading)
+
+What happens if a constructor is not defined in a Java class?
+-- Default constructor which is hidden will be called by JVM at the run time
+
+Can a constructor call other methods or constructors within the same class?
+-- yes its allowed
+
+Assignment 2:
+
+Create a Java class named "Rectangle" with the following instance variables:
+
+length (double)
+
+width (double)
+
+Create a default constructor for the Rectangle class that sets both the length and width to 0.0.
+
+Create a constructor for the Rectangle class that takes in the length and width as parameters and initializes the instance variables.
+
+Create a method in the Rectangle class named "calculateArea" that returns the area of the rectangle (length * width).
+
+Create a main method that creates two instances of the Rectangle class using both constructors, calculates and prints out their respective areas.
+
+Questions:
+
+What is the purpose of a default constructor in Java?
+
+How can you differentiate between a default constructor and a constructor that takes in parameters?
+
+What is the access level of a constructor in Java?
+
+Can a constructor be private? If so, why would you want to make a constructor private?
+
+Can a constructor call a method from another class?
+
+Assignment 3:
+
+Create a Java class named "Employee" with the following instance variables:
+
+id (int)
+
+name (String)
+
+salary (double)
+
+Create a constructor for the Employee class that takes in the id, name, and salary as parameters and initializes the instance variables.
+
+Create getter methods for each of the instance variables.
+
+Create a main method that creates an instance of the Employee class using the constructor, prints out the employee's information using the getter methods, and gives the employee a 10% raise using the setter method for the salary instance variable.
+
+Questions:
+
+What is the purpose of a getter method in Java?
+
+Can a getter method return void?
+
+What is the access level of a getter method in Java?
+
+What is the purpose of a setter method in Java?
+
+Can a setter method return a value other than void?
+
+Assignment 4:
+
+Create a Java class named "Car" with the following instance variables:
+
+make (String)
+
+model (String)
+
+year (int)
+
+Create a constructor for the Car class that takes in the make, model, and year as parameters and initializes the instance variables.
+
+Create a default constructor for the Car class that sets the make, model, and year to "Unknown".
+
+Create a main method that creates three instances of the Car class using both constructors and prints out their information.
+
+Questions:
+
+What is the purpose of a default constructor in Java?
+
+Can a default constructor take in parameters?
+
+Can a constructor be overloaded in Java? If so, what does it mean to overload a constructor?
+
+Can you create an object of a Java class without calling a constructor?
+
+How are instance variables accessed and modified outside of the class they are defined in?
+
+Assignment 5:
+
+Create a Java class named "BankAccount" with the following instance variables:
+
+accountNumber (String)
+
+balance (double)
+
+Create a constructor for the BankAccount class that takes in the accountNumber and balance as parameters and initializes the instance variables.
+
+Create a method in the BankAccount class named "deposit" that takes in a double value as a parameter and adds it to the balance instance variable.
+
+Create a method in the BankAccount class named "withdraw" that takes in a double value as a parameter and subtracts it from the balance instance variable.
+
+Create a main method that creates an instance of the BankAccount class using the constructor and performs multiple deposits and withdrawals using the deposit and withdraw methods. Print out the updated balance after each transaction.
+
+Questions:
+
+What is the purpose of an instance variable in Java?
+
+How are instance variables different from local variables in Java?
+
+What is the access level of an instance variable in Java?
+
+What is the purpose of a method in Java?
+
+Can a method call other methods within the same class?
